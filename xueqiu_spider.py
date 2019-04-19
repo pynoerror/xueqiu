@@ -34,18 +34,3 @@ for page in range(1,5):
             ws.append([symbol,name,current,percent,str(market_capital),str(pe_ttm) +"%"])
         wd.save("美国股市涨幅前100名.xlsx")
         count += 1
-
-
-
-
-
-'''
-    股票代码，symbol
-    股票名称，name
-    当前价，current
-    涨跌幅，percent
-    市值，market_capital
-    市盈率 pe_ttm  *100%
-'''
-
-
